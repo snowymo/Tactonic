@@ -1,0 +1,16 @@
+﻿生成启动时间为 2014/5/21 21:20:43。
+     1>项目“D:\Projects\ARGlass\branches\Unity2OpenCV\TestDll\OpencvDLL\OpencvDLL.vcxproj”在节点 5 上(Rebuild 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ID:\Libs\opencv\2.4.7\build/include /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D OPENCVDLL_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt OpencvDll.cpp
+         OpencvDll.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Projects\ARGlass\branches\Unity2OpenCV\TestDll\Release\OpencvDLL.dll" /INCREMENTAL:NO /NOLOGO /LIBPATH:D:\Libs\opencv\2.4.7\build\x86\vc11\lib opencv_highgui247.lib opencv_core247.lib opencv_imgproc247.lib opencv_calib3d247.lib opencv_objdetect247.lib opencv_nonfree247.lib opencv_features2d247.lib opencv_contrib247.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\Projects\ARGlass\branches\Unity2OpenCV\TestDll\Release\OpencvDLL.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Projects\ARGlass\branches\Unity2OpenCV\TestDll\Release\OpencvDLL.lib" /MACHINE:X86 /SAFESEH /DLL Release\OpencvDll.obj
+            正在创建库 D:\Projects\ARGlass\branches\Unity2OpenCV\TestDll\Release\OpencvDLL.lib 和对象 D:\Projects\ARGlass\branches\Unity2OpenCV\TestDll\Release\OpencvDLL.exp
+         正在生成代码
+         已完成代码的生成
+         OpencvDLL.vcxproj -> D:\Projects\ARGlass\branches\Unity2OpenCV\TestDll\Release\OpencvDLL.dll
+     1>已完成生成项目“D:\Projects\ARGlass\branches\Unity2OpenCV\TestDll\OpencvDLL\OpencvDLL.vcxproj”(Rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:02.48

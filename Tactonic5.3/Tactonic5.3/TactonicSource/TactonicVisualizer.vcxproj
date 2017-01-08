@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\DisplayViews.cpp" />
+    <ClCompile Include="src\TactonicVisualizer.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\DisplayViews.h" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{DB37D910-1615-4D74-9C64-DFEEC7419F30}</ProjectGuid>
+    <RootNamespace>Paint</RootNamespace>
+    <ProjectName>TactonicVisualizer</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.30319.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Configuration)\</IntDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Configuration)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>$(SolutionDir)\..\TactonicLib\include;$(SolutionDir)\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>tactonicTouch.lib;tactonic.lib;glut32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(SolutionDir)\lib;$(SolutionDir)\..\TactonicLib\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <PostBuildEvent>
+      <Command>echo POSTBUILDSTEP for $(Configuration) - $(ProjectName)
+xcopy "$(SolutionDir)\..\TactonicLib\lib\tactonic.dll" "$(SolutionDir)\$(Configuration)"  /y
+xcopy "$(SolutionDir)\..\TactonicLib\lib\tactonicTouch.dll" "$(SolutionDir)\$(Configuration)"  /y
+xcopy "$(SolutionDir)\..\TactonicLib\lib\ftd2xx.dll" "$(SolutionDir)\$(Configuration)"  /y
+xcopy "$(SolutionDir)\..\TactonicLib\lib\ftcserco.dll" "$(SolutionDir)\$(Configuration)"  /y
+xcopy "$(SolutionDir)\..\TactonicLib\lib\ftbusui.dll" "$(SolutionDir)\$(Configuration)"  /y
+xcopy "$(SolutionDir)\..\TactonicLib\lib\ftdibus.dll" "$(SolutionDir)\$(Configuration)"  /y
+xcopy "$(SolutionDir)\..\TactonicLib\lib\ftlang.dll" "$(SolutionDir)\$(Configuration)"  /y
+xcopy "$(SolutionDir)\..\TactonicLib\lib\ftser2k.dll" "$(SolutionDir)\$(Configuration)"  /y
+xcopy "$(SolutionDir)\..\TactonicLib\lib\ftserui2.dll" "$(SolutionDir)\$(Configuration)"  /y
+xcopy "$(SolutionDir)\lib\glut32.dll" "$(SolutionDir)\$(Configuration)"  /y
+xcopy "$(SolutionDir)TactonicVisualizerLogo.tga" "$(SolutionDir)\$(Configuration)"  /y</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <AdditionalIncludeDirectories>$(SolutionDir)\..\TactonicLib\include;$(SolutionDir)\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>tactonicTouch.lib;tactonic.lib;glut32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(SolutionDir)\lib;$(SolutionDir)\..\TactonicLib\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <PostBuildEvent>
+      <Command>echo POSTBUILDSTEP for $(Configuration) - $(ProjectName)
+xcopy "$(SolutionDir)\..\TactonicLib\lib\tactonic.dll" "$(SolutionDir)\$(Configuration)"  /y
+xcopy "$(SolutionDir)\..\TactonicLib\lib\tactonicTouch.dll" "$(SolutionDir)\$(Configuration)"  /y
+xcopy "$(SolutionDir)\..\TactonicLib\lib\ftd2xx.dll" "$(SolutionDir)\$(Configuration)"  /y
+xcopy "$(SolutionDir)\..\TactonicLib\lib\ftcserco.dll" "$(SolutionDir)\$(Configuration)"  /y
+xcopy "$(SolutionDir)\..\TactonicLib\lib\ftbusui.dll" "$(SolutionDir)\$(Configuration)"  /y
+xcopy "$(SolutionDir)\..\TactonicLib\lib\ftdibus.dll" "$(SolutionDir)\$(Configuration)"  /y
+xcopy "$(SolutionDir)\..\TactonicLib\lib\ftlang.dll" "$(SolutionDir)\$(Configuration)"  /y
+xcopy "$(SolutionDir)\..\TactonicLib\lib\ftser2k.dll" "$(SolutionDir)\$(Configuration)"  /y
+xcopy "$(SolutionDir)\..\TactonicLib\lib\ftserui2.dll" "$(SolutionDir)\$(Configuration)"  /y
+xcopy "$(SolutionDir)\lib\glut32.dll" "$(SolutionDir)\$(Configuration)"  /y
+xcopy "$(SolutionDir)TactonicVisualizerLogo.tga" "$(SolutionDir)\$(Configuration)"  /y</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,18 @@
+﻿生成启动时间为 2014/8/26 11:42:50。
+     1>项目“D:\Projects\ARGlass\branches\Unity2OpenCV\TestDll\CalPointClouds\CalPointClouds.vcxproj”在节点 8 上(Rebuild 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ID:\Libs\glm\0.9.3.4 /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>d:\libs\glm\0.9.3.4\glm\core\func_integer.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Projects\ARGlass\branches\Unity2OpenCV\TestDll\Debug\CalPointClouds.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\Projects\ARGlass\branches\Unity2OpenCV\TestDll\Debug\CalPointClouds.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Projects\ARGlass\branches\Unity2OpenCV\TestDll\Debug\CalPointClouds.lib" /MACHINE:X86 Debug\main.obj
+         CalPointClouds.vcxproj -> D:\Projects\ARGlass\branches\Unity2OpenCV\TestDll\Debug\CalPointClouds.exe
+       PostBuildEvent:
+         xcopy LeapCamOutput.txt D:\Projects\ARGlass\branches\PCL_learning\PCLtest\PCLtest /I /E /Y /D
+         :VCEnd
+         复制了 0 个文件
+     1>已完成生成项目“D:\Projects\ARGlass\branches\Unity2OpenCV\TestDll\CalPointClouds\CalPointClouds.vcxproj”(Rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:01.69

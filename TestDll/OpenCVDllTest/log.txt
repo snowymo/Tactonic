@@ -1,0 +1,177 @@
+contourArea:	30.5
+contourArea:	66.5
+contourArea:	826.5
+contourArea:	519
+contourArea:	243
+contourArea:	26
+contourArea:	163
+contourArea:	10
+contourArea:	62.5
+contourArea:	10
+contourArea:	14
+contourArea:	6662
+opencv found circle CLICK:	[90.5, 173]
+contourArea:	30.5
+contourArea:	66.5
+contourArea:	826.5
+contourArea:	519
+contourArea:	243
+contourArea:	26
+contourArea:	163
+contourArea:	10
+contourArea:	62.5
+contourArea:	10
+contourArea:	14
+contourArea:	6662
+opencv found circle CLICK:	[90.5, 173]
+contourArea:	10
+contourArea:	10
+contourArea:	10
+contourArea:	71
+contourArea:	47.5
+contourArea:	81.5
+contourArea:	10
+contourArea:	8546.5
+contourArea:	18
+contourArea:	35.5
+contourArea:	266.5
+contourArea:	112.5
+contourArea:	574.5
+contourArea:	799.5
+contourArea:	799.5
+opencv found circle CLICK:	[10.5, 443.5]
+opencv found circle CLICK:	[373.5, 254.5]
+contourArea:	799.5
+opencv found circle CLICK:	[10.5, 443.5]
+opencv found circle CLICK:	[373.5, 254.5]
+contourArea:	799.5
+contourArea:	799.5
+contourArea:	799.5
+opencv found circle CLICK:	[10.5, 443.5]
+opencv found circle CLICK:	[373.5, 254.5]
+contourArea:	799.5
+contourArea:	799.5
+opencv found circle CLICK:	[10.5, 443.5]
+opencv found circle CLICK:	[373.5, 254.5]
+contourArea:	554.5
+contourArea:	2102.5
+opencv found circle CLICK:	[3, 438.5]
+opencv found circle CLICK:	[28, 37.5]
+contourArea:	2
+contourArea:	2
+contourArea:	560.5
+contourArea:	2111
+opencv found circle CLICK:	[2, 427.5]
+opencv found circle CLICK:	[27.5, 38.5]
+contourArea:	2
+contourArea:	2
+contourArea:	560.5
+contourArea:	2111
+contourArea:	2
+contourArea:	2
+contourArea:	560.5
+contourArea:	2111
+contourArea:	2
+contourArea:	2
+contourArea:	560.5
+contourArea:	2111
+contourArea:	2
+contourArea:	2
+contourArea:	560.5
+contourArea:	2111
+contourArea:	2
+contourArea:	2
+contourArea:	560.5
+contourArea:	2111
+contourArea:	2
+contourArea:	2
+contourArea:	560.5
+contourArea:	2111
+contourArea:	2
+contourArea:	2
+contourArea:	560.5
+contourArea:	2111
+contourArea:	2
+contourArea:	2
+contourArea:	560.5
+contourArea:	2111
+opencv found circle CLICK:	[2, 427.5]
+opencv found circle CLICK:	[27.5, 38.5]
+contourArea:	2
+contourArea:	2
+contourArea:	560.5
+contourArea:	2111
+contourArea:	2
+contourArea:	2
+contourArea:	560.5
+contourArea:	2111
+opencv found circle CLICK:	[2, 427.5]
+opencv found circle CLICK:	[27.5, 38.5]
+contourArea:	2
+contourArea:	2
+contourArea:	560.5
+contourArea:	2111
+opencv found circle CLICK:	[2, 427.5]
+opencv found circle CLICK:	[27.5, 38.5]
+contourArea:	2
+contourArea:	2
+contourArea:	560.5
+contourArea:	2111
+opencv found circle CLICK:	[2, 427.5]
+opencv found circle CLICK:	[27.5, 38.5]
+contourArea:	25
+contourArea:	10
+contourArea:	10
+contourArea:	53
+contourArea:	42
+contourArea:	270
+contourArea:	14
+contourArea:	10
+contourArea:	59
+contourArea:	10
+contourArea:	10
+contourArea:	586.5
+opencv found circle CLICK:	[143.3, 114.136]
+opencv found circle CLICK:	[484.5, 240.5]
+contourArea:	25
+contourArea:	10
+contourArea:	10
+contourArea:	53
+contourArea:	42
+contourArea:	270
+contourArea:	14
+contourArea:	10
+contourArea:	59
+contourArea:	10
+contourArea:	10
+contourArea:	586.5
+opencv found circle CLICK:	[143.3, 114.136]
+opencv found circle CLICK:	[484.5, 240.5]
+contourArea:	25
+contourArea:	10
+contourArea:	10
+contourArea:	53
+contourArea:	42
+contourArea:	270
+contourArea:	14
+contourArea:	10
+contourArea:	59
+contourArea:	10
+contourArea:	10
+contourArea:	586.5
+opencv found circle CLICK:	[143.3, 114.136]
+opencv found circle CLICK:	[484.5, 240.5]
+contourArea:	25
+contourArea:	10
+contourArea:	10
+contourArea:	53
+contourArea:	42
+contourArea:	270
+contourArea:	14
+contourArea:	10
+contourArea:	59
+contourArea:	10
+contourArea:	10
+contourArea:	586.5
+opencv found circle CLICK:	[143.3, 114.136]
+opencv found circle CLICK:	[484.5, 240.5]

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>6B26EDF2-C891-4169-A962-F1A3BA7B3668</string>
+	<key>IDESourceControlProjectName</key>
+	<string>TactonicVisualizer</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>C62D06984849FBB8ADB31DFAAC901E3E4B435863</key>
+		<string>https://bitbucket.org/ZhuW/floorsensor-node.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>TactonicSource/TactonicVisualizer.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>C62D06984849FBB8ADB31DFAAC901E3E4B435863</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://bitbucket.org/ZhuW/floorsensor-node.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>C62D06984849FBB8ADB31DFAAC901E3E4B435863</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>C62D06984849FBB8ADB31DFAAC901E3E4B435863</string>
+			<key>IDESourceControlWCCName</key>
+			<string>FloorSensor-Node</string>
+		</dict>
+	</array>
+</dict>
+</plist>
