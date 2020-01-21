@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:TactonicJNI.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Tactonic.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:TactonicTouch.xcodeproj">
+   </FileRef>
+</Workspace>

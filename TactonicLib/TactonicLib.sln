@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "tactonicTouch", "TactonicTouch.vcxproj", "{67C020DB-1326-4C0E-92FD-2654490E131E}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "tactonic", "Tactonic.vcxproj", "{0A0FAAE4-BA7F-4F45-829A-8721F6DF6D7C}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TactonicJNI", "TactonicJNI.vcxproj", "{2BB5758A-E403-4103-94A9-6A2145CF6EBA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		DebugStatic|Win32 = DebugStatic|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{67C020DB-1326-4C0E-92FD-2654490E131E}.Debug|Win32.ActiveCfg = Debug|Win32
+		{67C020DB-1326-4C0E-92FD-2654490E131E}.Debug|Win32.Build.0 = Debug|Win32
+		{67C020DB-1326-4C0E-92FD-2654490E131E}.DebugStatic|Win32.ActiveCfg = DebugStatic|Win32
+		{67C020DB-1326-4C0E-92FD-2654490E131E}.DebugStatic|Win32.Build.0 = DebugStatic|Win32
+		{67C020DB-1326-4C0E-92FD-2654490E131E}.Release|Win32.ActiveCfg = Release|Win32
+		{67C020DB-1326-4C0E-92FD-2654490E131E}.Release|Win32.Build.0 = Release|Win32
+		{0A0FAAE4-BA7F-4F45-829A-8721F6DF6D7C}.Debug|Win32.ActiveCfg = Debug|Win32
+		{0A0FAAE4-BA7F-4F45-829A-8721F6DF6D7C}.Debug|Win32.Build.0 = Debug|Win32
+		{0A0FAAE4-BA7F-4F45-829A-8721F6DF6D7C}.DebugStatic|Win32.ActiveCfg = DebugStatic|Win32
+		{0A0FAAE4-BA7F-4F45-829A-8721F6DF6D7C}.DebugStatic|Win32.Build.0 = DebugStatic|Win32
+		{0A0FAAE4-BA7F-4F45-829A-8721F6DF6D7C}.Release|Win32.ActiveCfg = Release|Win32
+		{0A0FAAE4-BA7F-4F45-829A-8721F6DF6D7C}.Release|Win32.Build.0 = Release|Win32
+		{2BB5758A-E403-4103-94A9-6A2145CF6EBA}.Debug|Win32.ActiveCfg = Debug|Win32
+		{2BB5758A-E403-4103-94A9-6A2145CF6EBA}.Debug|Win32.Build.0 = Debug|Win32
+		{2BB5758A-E403-4103-94A9-6A2145CF6EBA}.DebugStatic|Win32.ActiveCfg = Debug|Win32
+		{2BB5758A-E403-4103-94A9-6A2145CF6EBA}.DebugStatic|Win32.Build.0 = Debug|Win32
+		{2BB5758A-E403-4103-94A9-6A2145CF6EBA}.Release|Win32.ActiveCfg = Release|Win32
+		{2BB5758A-E403-4103-94A9-6A2145CF6EBA}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

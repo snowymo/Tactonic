@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TactonicVisualizerDev", "TactonicVisualizerDev.vcxproj", "{EE2BE4DB-DBC8-420F-A0D4-B2766A49F129}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TactonicVisualizerWin", "TactonicVisualizerWin.vcxproj", "{DB37D910-1615-4D74-9C64-DFEEC7419F30}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EE2BE4DB-DBC8-420F-A0D4-B2766A49F129}.Debug|Win32.ActiveCfg = Debug|Win32
+		{EE2BE4DB-DBC8-420F-A0D4-B2766A49F129}.Debug|Win32.Build.0 = Debug|Win32
+		{EE2BE4DB-DBC8-420F-A0D4-B2766A49F129}.Release|Win32.ActiveCfg = Release|Win32
+		{EE2BE4DB-DBC8-420F-A0D4-B2766A49F129}.Release|Win32.Build.0 = Release|Win32
+		{DB37D910-1615-4D74-9C64-DFEEC7419F30}.Debug|Win32.ActiveCfg = Debug|Win32
+		{DB37D910-1615-4D74-9C64-DFEEC7419F30}.Debug|Win32.Build.0 = Debug|Win32
+		{DB37D910-1615-4D74-9C64-DFEEC7419F30}.Release|Win32.ActiveCfg = Release|Win32
+		{DB37D910-1615-4D74-9C64-DFEEC7419F30}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,235 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18766318159F9A0E0034433C /* libTactonic.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 18766317159F9A0E0034433C /* libTactonic.dylib */; };
+		18F1BDCF146CB48200412778 /* TactonicTouch.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 18F1BDCC146CB48200412778 /* TactonicTouch.cpp */; };
+		18F1BDD0146CB48200412778 /* TactonicTouchDetector.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 18F1BDCD146CB48200412778 /* TactonicTouchDetector.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		18766317159F9A0E0034433C /* libTactonic.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libTactonic.dylib; path = ../../Stable/TactonicLib/lib/libTactonic.dylib; sourceTree = "<group>"; };
+		188AEC6A146CB42C00BB4B98 /* libTactonicTouch.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libTactonicTouch.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		18F1BDCC146CB48200412778 /* TactonicTouch.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = TactonicTouch.cpp; path = src/TactonicTouch.cpp; sourceTree = "<group>"; };
+		18F1BDCD146CB48200412778 /* TactonicTouchDetector.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = TactonicTouchDetector.cpp; path = src/TactonicTouchDetector.cpp; sourceTree = "<group>"; };
+		18F1BDD7146CB49B00412778 /* TactonicTouch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TactonicTouch.h; path = include/TactonicTouch.h; sourceTree = "<group>"; };
+		18F1BDD8146CB49B00412778 /* TactonicTouchDetector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TactonicTouchDetector.h; path = include/TactonicTouchDetector.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		188AEC67146CB42C00BB4B98 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18766318159F9A0E0034433C /* libTactonic.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		188AEC5F146CB42C00BB4B98 = {
+			isa = PBXGroup;
+			children = (
+				18766317159F9A0E0034433C /* libTactonic.dylib */,
+				18F1BDD7146CB49B00412778 /* TactonicTouch.h */,
+				18F1BDD8146CB49B00412778 /* TactonicTouchDetector.h */,
+				18F1BDCC146CB48200412778 /* TactonicTouch.cpp */,
+				18F1BDCD146CB48200412778 /* TactonicTouchDetector.cpp */,
+				188AEC6B146CB42C00BB4B98 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		188AEC6B146CB42C00BB4B98 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				188AEC6A146CB42C00BB4B98 /* libTactonicTouch.dylib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		188AEC69146CB42C00BB4B98 /* TactonicTouch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 188AEC6E146CB42C00BB4B98 /* Build configuration list for PBXNativeTarget "TactonicTouch" */;
+			buildPhases = (
+				188AEC66146CB42C00BB4B98 /* Sources */,
+				188AEC67146CB42C00BB4B98 /* Frameworks */,
+				1810D39915A37E7400658698 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TactonicTouch;
+			productName = TactonicTouch;
+			productReference = 188AEC6A146CB42C00BB4B98 /* libTactonicTouch.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		188AEC61146CB42C00BB4B98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "New York University;";
+			};
+			buildConfigurationList = 188AEC64146CB42C00BB4B98 /* Build configuration list for PBXProject "TactonicTouch" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 188AEC5F146CB42C00BB4B98;
+			productRefGroup = 188AEC6B146CB42C00BB4B98 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				188AEC69146CB42C00BB4B98 /* TactonicTouch */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1810D39915A37E7400658698 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "cd ${TARGET_BUILD_DIR}\ninstall_name_tool -change /usr/local/lib/libTactonic.dylib @executable_path/lib/libTactonic.dylib libTactonicTouch.dylib\ncp libTactonicTouch.dylib /${SRCROOT}/../../Stable/TactonicLib/lib\ncp libTactonicTouch.dylib /${SRCROOT}/../../Stable/TactonicDemos/lib\ncp libTactonicTouch.dylib /${SRCROOT}/../../Release/TactonicLib/lib\ncp libTactonicTouch.dylib /${SRCROOT}/../../Release/TactonicDemos/lib\ncd /${SRCROOT}/include\ncp TactonicTouch.h /${SRCROOT}/../../Stable/TactonicLib/include\ncp TactonicTouch.h /${SRCROOT}/../../Release/TactonicLib/include";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		188AEC66146CB42C00BB4B98 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18F1BDCF146CB48200412778 /* TactonicTouch.cpp in Sources */,
+				18F1BDD0146CB48200412778 /* TactonicTouchDetector.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		188AEC6C146CB42C00BB4B98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		188AEC6D146CB42C00BB4B98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		188AEC6F146CB42C00BB4B98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				EXECUTABLE_PREFIX = lib;
+				INSTALL_PATH = /usr/local/lib;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../Stable/TactonicLib/lib\"",
+				);
+				PRIVATE_HEADERS_FOLDER_PATH = /usr/local/include;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = /usr/local/include;
+				SDKROOT = macosx;
+				VALID_ARCHS = i386;
+			};
+			name = Debug;
+		};
+		188AEC70146CB42C00BB4B98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				EXECUTABLE_PREFIX = lib;
+				INSTALL_PATH = /usr/local/lib;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../Stable/TactonicLib/lib\"",
+				);
+				PRIVATE_HEADERS_FOLDER_PATH = /usr/local/include;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = /usr/local/include;
+				SDKROOT = macosx;
+				VALID_ARCHS = i386;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		188AEC64146CB42C00BB4B98 /* Build configuration list for PBXProject "TactonicTouch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				188AEC6C146CB42C00BB4B98 /* Debug */,
+				188AEC6D146CB42C00BB4B98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		188AEC6E146CB42C00BB4B98 /* Build configuration list for PBXNativeTarget "TactonicTouch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				188AEC6F146CB42C00BB4B98 /* Debug */,
+				188AEC70146CB42C00BB4B98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 188AEC61146CB42C00BB4B98 /* Project object */;
+}

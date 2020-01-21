@@ -1,0 +1,243 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1888FDEB145E2C1A00D9E145 /* TactonicJNI.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1888FDEA145E2C1A00D9E145 /* TactonicJNI.cpp */; };
+		1888FDF0145E2C2E00D9E145 /* TactonicJNI.h in Headers */ = {isa = PBXBuildFile; fileRef = 1888FDED145E2C2E00D9E145 /* TactonicJNI.h */; };
+		18B547E315D9A19600AEC4D2 /* libTactonic.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 18B547E115D9A19500AEC4D2 /* libTactonic.dylib */; };
+		18B547E415D9A19600AEC4D2 /* libTactonicTouch.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 18B547E215D9A19500AEC4D2 /* libTactonicTouch.dylib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1888FDEA145E2C1A00D9E145 /* TactonicJNI.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = TactonicJNI.cpp; path = src/TactonicJNI.cpp; sourceTree = "<group>"; };
+		1888FDED145E2C2E00D9E145 /* TactonicJNI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TactonicJNI.h; path = include/TactonicJNI.h; sourceTree = "<group>"; };
+		18A26B701447ED3600CE733F /* libTactonicJNI.jnilib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libTactonicJNI.jnilib; sourceTree = BUILT_PRODUCTS_DIR; };
+		18B547E115D9A19500AEC4D2 /* libTactonic.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libTactonic.dylib; path = ../../Stable/TactonicLib/lib/libTactonic.dylib; sourceTree = "<group>"; };
+		18B547E215D9A19500AEC4D2 /* libTactonicTouch.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libTactonicTouch.dylib; path = ../../Stable/TactonicLib/lib/libTactonicTouch.dylib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18A26B6D1447ED3600CE733F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18B547E315D9A19600AEC4D2 /* libTactonic.dylib in Frameworks */,
+				18B547E415D9A19600AEC4D2 /* libTactonicTouch.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18A26B651447ED3600CE733F = {
+			isa = PBXGroup;
+			children = (
+				18B547E115D9A19500AEC4D2 /* libTactonic.dylib */,
+				18B547E215D9A19500AEC4D2 /* libTactonicTouch.dylib */,
+				1888FDED145E2C2E00D9E145 /* TactonicJNI.h */,
+				1888FDEA145E2C1A00D9E145 /* TactonicJNI.cpp */,
+				18A26B711447ED3600CE733F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18A26B711447ED3600CE733F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18A26B701447ED3600CE733F /* libTactonicJNI.jnilib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		18A26B6E1447ED3600CE733F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1888FDF0145E2C2E00D9E145 /* TactonicJNI.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		18A26B6F1447ED3600CE733F /* TactonicJNI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18A26B741447ED3600CE733F /* Build configuration list for PBXNativeTarget "TactonicJNI" */;
+			buildPhases = (
+				18A26B6C1447ED3600CE733F /* Sources */,
+				18A26B6D1447ED3600CE733F /* Frameworks */,
+				18A26B6E1447ED3600CE733F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TactonicJNI;
+			productName = TactonicJNI;
+			productReference = 18A26B701447ED3600CE733F /* libTactonicJNI.jnilib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18A26B671447ED3600CE733F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "New York University;";
+			};
+			buildConfigurationList = 18A26B6A1447ED3600CE733F /* Build configuration list for PBXProject "TactonicJNI" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 18A26B651447ED3600CE733F;
+			productRefGroup = 18A26B711447ED3600CE733F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18A26B6F1447ED3600CE733F /* TactonicJNI */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18A26B6C1447ED3600CE733F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1888FDEB145E2C1A00D9E145 /* TactonicJNI.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		18A26B721447ED3600CE733F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		18A26B731447ED3600CE733F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		18A26B751447ED3600CE733F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				EXECUTABLE_EXTENSION = jnilib;
+				EXECUTABLE_PREFIX = lib;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include,
+					/System/Library/Frameworks/JavaVM.framework/Headers,
+					"$(SRCROOT)/../../Stable/TactonicLib/include",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					/usr/local/lib,
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+					"\"$(SRCROOT)/../../../../../Library/Developer/Xcode/DerivedData/Tactonic-faczesudxpplrrajailgvupudzeh/Build/Products/Debug\"",
+					"\"$(SRCROOT)/../../Stable/TactonicLib/lib\"",
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx10.8;
+				VALID_ARCHS = i386;
+			};
+			name = Debug;
+		};
+		18A26B761447ED3600CE733F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				EXECUTABLE_EXTENSION = jnilib;
+				EXECUTABLE_PREFIX = lib;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include,
+					/System/Library/Frameworks/JavaVM.framework/Headers,
+					"$(SRCROOT)/../../Stable/TactonicLib/include",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					/usr/local/lib,
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+					"\"$(SRCROOT)/../../../../../Library/Developer/Xcode/DerivedData/Tactonic-faczesudxpplrrajailgvupudzeh/Build/Products/Debug\"",
+					"\"$(SRCROOT)/../../Stable/TactonicLib/lib\"",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx10.8;
+				VALID_ARCHS = i386;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18A26B6A1447ED3600CE733F /* Build configuration list for PBXProject "TactonicJNI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18A26B721447ED3600CE733F /* Debug */,
+				18A26B731447ED3600CE733F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18A26B741447ED3600CE733F /* Build configuration list for PBXNativeTarget "TactonicJNI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18A26B751447ED3600CE733F /* Debug */,
+				18A26B761447ED3600CE733F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18A26B671447ED3600CE733F /* Project object */;
+}

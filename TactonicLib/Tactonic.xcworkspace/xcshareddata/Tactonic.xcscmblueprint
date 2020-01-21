@@ -1,0 +1,25 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "a135c86c-2ee9-4944-9a57-e137035e088e",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "a135c86c-2ee9-4944-9a57-e137035e088e" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "a135c86c-2ee9-4944-9a57-e137035e088e" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "0010697F-1EB1-489F-AF0D-6B0631ED3A13",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "a135c86c-2ee9-4944-9a57-e137035e088e" : "tactonic\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Tactonic",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "trunk\/Dev\/TactonicLib\/Tactonic.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/tactonic.svn.beanstalkapp.com\/tactonic",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "a135c86c-2ee9-4944-9a57-e137035e088e"
+    }
+  ]
+}

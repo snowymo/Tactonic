@@ -1,0 +1,284 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		188E91B715BF392F00469551 /* DisplayViews.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 188E91B515BF392F00469551 /* DisplayViews.cpp */; };
+		188E91B815BF392F00469551 /* TactonicVisualizer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 188E91B615BF392F00469551 /* TactonicVisualizer.cpp */; };
+		188E91BD15BF394600469551 /* libftd2xx.1.0.4.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 188E91BA15BF394600469551 /* libftd2xx.1.0.4.dylib */; };
+		188E91BE15BF394600469551 /* libTactonic.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 188E91BB15BF394600469551 /* libTactonic.dylib */; };
+		188E91BF15BF394600469551 /* libTactonicTouch.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 188E91BC15BF394600469551 /* libTactonicTouch.dylib */; };
+		188E91C115BF394D00469551 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 188E91C015BF394D00469551 /* GLUT.framework */; };
+		188E91C315BF395400469551 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 188E91C215BF395400469551 /* OpenGL.framework */; };
+		188E91C615BF398B00469551 /* libftd2xx.1.0.4.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 188E91BA15BF394600469551 /* libftd2xx.1.0.4.dylib */; };
+		188E91C715BF398B00469551 /* libTactonic.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 188E91BB15BF394600469551 /* libTactonic.dylib */; };
+		188E91C815BF398B00469551 /* libTactonicTouch.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 188E91BC15BF394600469551 /* libTactonicTouch.dylib */; };
+		18C0F8A317FDC90A00DE8B18 /* Contours.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 18C0F8A217FDC90A00DE8B18 /* Contours.cpp */; };
+		18E01E4115D1DD46008CCC29 /* TactonicVisualizerLogo.tga in CopyFiles */ = {isa = PBXBuildFile; fileRef = 188E91B415BF392100469551 /* TactonicVisualizerLogo.tga */; };
+		18E01E4215D1DD46008CCC29 /* pen.tga in CopyFiles */ = {isa = PBXBuildFile; fileRef = 18E01E3F15D1DD23008CCC29 /* pen.tga */; };
+		18E01E4315D1DD46008CCC29 /* cursor.tga in CopyFiles */ = {isa = PBXBuildFile; fileRef = 18E01E3E15D1DD23008CCC29 /* cursor.tga */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		188E91C515BF398100469551 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = lib;
+			dstSubfolderSpec = 6;
+			files = (
+				18E01E4115D1DD46008CCC29 /* TactonicVisualizerLogo.tga in CopyFiles */,
+				18E01E4215D1DD46008CCC29 /* pen.tga in CopyFiles */,
+				18E01E4315D1DD46008CCC29 /* cursor.tga in CopyFiles */,
+				188E91C615BF398B00469551 /* libftd2xx.1.0.4.dylib in CopyFiles */,
+				188E91C715BF398B00469551 /* libTactonic.dylib in CopyFiles */,
+				188E91C815BF398B00469551 /* libTactonicTouch.dylib in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		188E918715BF377B00469551 /* TactonicVisualizerMac */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = TactonicVisualizerMac; sourceTree = BUILT_PRODUCTS_DIR; };
+		188E91B415BF392100469551 /* TactonicVisualizerLogo.tga */ = {isa = PBXFileReference; lastKnownFileType = file; path = TactonicVisualizerLogo.tga; sourceTree = "<group>"; };
+		188E91B515BF392F00469551 /* DisplayViews.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = DisplayViews.cpp; path = src/DisplayViews.cpp; sourceTree = SOURCE_ROOT; };
+		188E91B615BF392F00469551 /* TactonicVisualizer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = TactonicVisualizer.cpp; path = src/TactonicVisualizer.cpp; sourceTree = SOURCE_ROOT; };
+		188E91B915BF393700469551 /* DisplayViews.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DisplayViews.h; path = include/DisplayViews.h; sourceTree = SOURCE_ROOT; };
+		188E91BA15BF394600469551 /* libftd2xx.1.0.4.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libftd2xx.1.0.4.dylib; path = ../../Stable/TactonicLib/lib/libftd2xx.1.0.4.dylib; sourceTree = "<group>"; };
+		188E91BB15BF394600469551 /* libTactonic.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libTactonic.dylib; path = ../../Stable/TactonicLib/lib/libTactonic.dylib; sourceTree = "<group>"; };
+		188E91BC15BF394600469551 /* libTactonicTouch.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libTactonicTouch.dylib; path = ../../Stable/TactonicLib/lib/libTactonicTouch.dylib; sourceTree = "<group>"; };
+		188E91C015BF394D00469551 /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = System/Library/Frameworks/GLUT.framework; sourceTree = SDKROOT; };
+		188E91C215BF395400469551 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		18C0F8A217FDC90A00DE8B18 /* Contours.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Contours.cpp; path = src/Contours.cpp; sourceTree = SOURCE_ROOT; };
+		18C0F8A417FDC91500DE8B18 /* Contours.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Contours.h; path = include/Contours.h; sourceTree = SOURCE_ROOT; };
+		18E01E3E15D1DD23008CCC29 /* cursor.tga */ = {isa = PBXFileReference; lastKnownFileType = file; path = cursor.tga; sourceTree = "<group>"; };
+		18E01E3F15D1DD23008CCC29 /* pen.tga */ = {isa = PBXFileReference; lastKnownFileType = file; path = pen.tga; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		188E918415BF377B00469551 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				188E91C315BF395400469551 /* OpenGL.framework in Frameworks */,
+				188E91C115BF394D00469551 /* GLUT.framework in Frameworks */,
+				188E91BD15BF394600469551 /* libftd2xx.1.0.4.dylib in Frameworks */,
+				188E91BE15BF394600469551 /* libTactonic.dylib in Frameworks */,
+				188E91BF15BF394600469551 /* libTactonicTouch.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		188E917C15BF377B00469551 = {
+			isa = PBXGroup;
+			children = (
+				188E91C015BF394D00469551 /* GLUT.framework */,
+				188E91C215BF395400469551 /* OpenGL.framework */,
+				188E91B415BF392100469551 /* TactonicVisualizerLogo.tga */,
+				18E01E3F15D1DD23008CCC29 /* pen.tga */,
+				18E01E3E15D1DD23008CCC29 /* cursor.tga */,
+				188E91BA15BF394600469551 /* libftd2xx.1.0.4.dylib */,
+				188E91BB15BF394600469551 /* libTactonic.dylib */,
+				188E91BC15BF394600469551 /* libTactonicTouch.dylib */,
+				188E918A15BF377B00469551 /* TactonicVisualizerMac */,
+				188E918815BF377B00469551 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		188E918815BF377B00469551 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				188E918715BF377B00469551 /* TactonicVisualizerMac */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		188E918A15BF377B00469551 /* TactonicVisualizerMac */ = {
+			isa = PBXGroup;
+			children = (
+				18C0F8A417FDC91500DE8B18 /* Contours.h */,
+				18C0F8A217FDC90A00DE8B18 /* Contours.cpp */,
+				188E91B915BF393700469551 /* DisplayViews.h */,
+				188E91B515BF392F00469551 /* DisplayViews.cpp */,
+				188E91B615BF392F00469551 /* TactonicVisualizer.cpp */,
+			);
+			path = TactonicVisualizerMac;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		188E918615BF377B00469551 /* TactonicVisualizerMac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 188E919115BF377B00469551 /* Build configuration list for PBXNativeTarget "TactonicVisualizerMac" */;
+			buildPhases = (
+				188E918315BF377B00469551 /* Sources */,
+				188E918415BF377B00469551 /* Frameworks */,
+				188E91C515BF398100469551 /* CopyFiles */,
+				188E91C915BF398F00469551 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TactonicVisualizerMac;
+			productName = TactonicVisualizerMac;
+			productReference = 188E918715BF377B00469551 /* TactonicVisualizerMac */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		188E917E15BF377B00469551 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "New York University;";
+			};
+			buildConfigurationList = 188E918115BF377B00469551 /* Build configuration list for PBXProject "TactonicVisualizerMac" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 188E917C15BF377B00469551;
+			productRefGroup = 188E918815BF377B00469551 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				188E918615BF377B00469551 /* TactonicVisualizerMac */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		188E91C915BF398F00469551 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "cd ${TARGET_BUILD_DIR}\ninstall_name_tool -change /usr/local/lib/libftd2xx.1.0.4.dylib @executable_path/lib/libftd2xx.1.0.4.dylib TactonicVisualizerMac\ninstall_name_tool -change /usr/local/lib/libTactonic.dylib @executable_path/lib/libTactonic.dylib TactonicVisualizerMac\ninstall_name_tool -change /usr/local/lib/libTactonicTouch.dylib @executable_path/lib/libTactonicTouch.dylib TactonicVisualizerMac\ncd /${SRCROOT}/include\ncp DisplayViews.h /${SRCROOT}/../../Release/TactonicSource/include\ncd /${SRCROOT}/src\ncp TactonicVisualizer.cpp /${SRCROOT}/../../Release/TactonicSource/src\ncp DisplayViews.cpp /${SRCROOT}/../../Release/TactonicSource/src";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		188E918315BF377B00469551 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				188E91B715BF392F00469551 /* DisplayViews.cpp in Sources */,
+				188E91B815BF392F00469551 /* TactonicVisualizer.cpp in Sources */,
+				18C0F8A317FDC90A00DE8B18 /* Contours.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		188E918F15BF377B00469551 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		188E919015BF377B00469551 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		188E919215BF377B00469551 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/../../Stable/TactonicLib/include";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../Stable/TactonicLib/lib\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		188E919315BF377B00469551 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/../../Stable/TactonicLib/include";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../Stable/TactonicLib/lib\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		188E918115BF377B00469551 /* Build configuration list for PBXProject "TactonicVisualizerMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				188E918F15BF377B00469551 /* Debug */,
+				188E919015BF377B00469551 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		188E919115BF377B00469551 /* Build configuration list for PBXNativeTarget "TactonicVisualizerMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				188E919215BF377B00469551 /* Debug */,
+				188E919315BF377B00469551 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 188E917E15BF377B00469551 /* Project object */;
+}
