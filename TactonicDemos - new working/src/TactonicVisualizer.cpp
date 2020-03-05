@@ -42,6 +42,8 @@ void writeData(TactonicFrame* frame);			//obviously for writing data to a file
 
 std::string fileprefix = "";
 
+int deviceCols = 32;
+int deviceRows = 32;
 
 int main(int argc, char *argv[]) {
     if (argc == 2)
@@ -63,8 +65,8 @@ int main(int argc, char *argv[]) {
     if (deviceList->numDevices > 0) {                              // Set up the Tactonic Device and register the callback function
         originDev = deviceList->devices[deviceIndex];                         // Get the device
         device = originDev;
-        device.cols = 12;
-        device.rows = 32;
+        device.cols = deviceCols;
+        device.rows = deviceRows;
         viewer.init(device, argc, argv);							// Initialize the View Renderer
         originFrame = Tactonic_CreateFrame(originDev);
         frame = Tactonic_CreateFrame(device);                   // Create a TactonicFrame for this device
@@ -86,17 +88,27 @@ int main(int argc, char *argv[]) {
 void frameCallback(TactonicFrameEvent* evt) {            // TactonicFrame callback registered in the main
     Tactonic_CopyFrame(evt->frame, originFrame);               // Copy the callback frame to a local frame
     int arrayIndex = 0;
-    for (int i = 16; i < 48; i++)
+    int largestForce = 0, largestRow = 0, largestCol = 0;
+    for (int i = 0; i < deviceRows; i++)
+//    for (int i = 16; i < 48; i++)
     {
-        for (int j = 75; j > 63; j--)
+        for (int j = 0; j < deviceCols; j++)
+        //for (int j = 75; j > 63; j--)
         {
             frame->forces[arrayIndex] = originFrame->forces[i * originFrame->cols + j];
+            if (frame->forces[arrayIndex] > largestForce) {
+                largestForce = frame->forces[arrayIndex];
+                largestRow = i;
+                largestCol = j;
+            }
             arrayIndex++;
         }
     }
+    if(largestForce > 0)
+        std::cout << largestRow << "," << largestCol << ":" << largestForce << "\n";
 
     // send the data
-    udpClient->sendMsg(std::to_string(frame->cols) + " " + std::to_string(frame->rows));
+    //udpClient->sendMsg(std::to_string(frame->cols) + " " + std::to_string(frame->rows));
     milliseconds ms = duration_cast<milliseconds>(system_clock::now().time_since_epoch());
     long long msll = ms.count();
     // copy the force to my buffer, send it with the timestamp, add a new func for byte array
